@@ -13,4 +13,16 @@ h1 {
 .btn{
   display:inline;
   justify-content:space-around;
+  border-color:azure;
+  background-color: azure;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+}
+h2{
+  font-size:30px;
+  align-items:center;
+  color: white;
+}
+.mission{
+  background-color: #373fff;
+  background-size: 700px 600px;
 }
