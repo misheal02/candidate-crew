@@ -1,16 +1,11 @@
 /* CSS files add styling rules to your content */
 
-body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-  background-color:rgb(255,0,0);opacity:0.6;
-}
+
 
 h1 {
   font-family: 'Rubik Mono One', sans-serif;
   color: #373fff;
   font-size: 50px;
-  background-color:rgb(255,0,0);opacity:0.6;
 }
 
 /* .btn{
@@ -32,6 +27,8 @@ h2{
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: red;
+  background-color:rgb(255,0,0,0.6);
 }
 
 .topnav {
@@ -55,5 +52,5 @@ body {
 
 .topnav a.active {
   background-color: black;
-  color: red;
+  color: white;
 }
