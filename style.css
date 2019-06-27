@@ -99,12 +99,14 @@ display:inline-block;
   padding-bottom: 0px;
   transform: translate(20px, 50px);
   margin-left:0px;
-  
+/*   position:relative;
+   */
 }
 
 img#vote {
   height:450px;
   width:500px;
+/*   position: relative;  */
   transform: translate(650px, -400px);
   margin-left:230px
 }
@@ -121,13 +123,15 @@ img#vote {
 
 }
 .issues{
-  display:inline
+  display:inline;
     
-   transform: translate(200px, 350px);
+/*    transform: translate(200px, 350px); */
+    position: relative;
 }
 img#health, img#immigration, img#loans{
   width:500px;
   height:300px;
+/*   positon: relative;  */
   transform: translate(0px, -420px);
   float: left;
   width: 33.33%
@@ -140,6 +144,7 @@ bottom photo? */
 
 .topics {
   transform: translate(0px, -410px);
+/*   position: relative;  */
   background-color: #031D44;
   background-size: 700px 600px;
   color: white;
@@ -147,7 +152,8 @@ bottom photo? */
 }
 
 footer {
-  transform: translate(0px, -320px);
+/*   transform: translate(0px, -320px); */
+  position: relative; 
   border: 4px black;
 }
 #titleM{
@@ -161,4 +167,10 @@ font-size: 25px;
   font-size: 20px;
 }
 
+#misheal {
+  color: white;
+}
+.aboutUs{
+    transform: translate(0px, -420px);
 
+}
