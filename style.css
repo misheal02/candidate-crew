@@ -59,6 +59,9 @@ body {
 #joeBiden{
   background-color: #D3D3D3;
   border-radius: 25px;
+}
+
+.list {
   list-style-type: none;
 }
 
@@ -81,6 +84,12 @@ body {
   background-color: #D3D3D3;
   border-radius: 25px;
 }
+
+#castro {
+  background-color: #D3D3D3;
+  border-radius: 25px;
+}
+
 .mission{
 display:inline-block;
   height:450px;
@@ -100,7 +109,7 @@ img#vote {
   margin-left:230px
 }
 #activism{
-  padding-top:10px;
+  padding-top:0px;
   height: 600px;
   width: 100%;
   transform: translate(0px, -350px);
@@ -133,6 +142,7 @@ bottom photo? */
 
 footer {
   transform: translate(0px, -320px);
+  border: 4px black;
 }
 #titleM{
   color: white; 
