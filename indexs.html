@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/styles.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/scripts.js" defer></script>
+  </head>  
+  <body>
+     <section class="quiz-section quiz-fullscreen section section-dark" id="quiz">
+        <div class="section-background-image">
+        </div>
+
+
+        <div class="container">
+            <img alt="2020election" id = "poster" src="https://cdn.vox-cdn.com/uploads/chorus_asset/file/16217394/ElectionLogo.0.png">
+
+            <div id ="introbox1" class="quizintrobox">
+                <p><b>Hello, Fellow 2020 Voter!</b> The following quiz will give you a better idea of what candidate you most agree with and should possibly elect.  Often times, people aren't really sure of what person best represents them due to public pressure so this quiz was created in hopes of giving you a better idea. Scroll down for your first question and continue from there to find out!</p>
+                <button class="button_header" id="startQuizBtn" onclick="startQuiz();document.getElementById('footer').scrollIntoView();" type="button">Start Quiz</button>
+			      </div>
+        </div>
+       
+        <div class="no1"
+          <h2>y</h2>
+         <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+          </form> 
+          <form>
+                   <p class="q2"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q2" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q2" type="radio" name="gender" value="no"> No<br>
+                   <input class="q2" type="radio" name="gender" value="undecided"> Undecided
+            
+         </form> 
+    <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+          </form> 
+          <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+            
+         </form> 
+    <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+          </form> 
+          <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+            
+         </form> 
+      </div>
+  
+<!--       <div>
+         <form>
+                   <p class="q1"> Do you support the Iran Nuclear deal? </p>
+                   <input class="q1" type="radio" name="gender" value="yes"> Yes<br>
+                   <input class="q1" type="radio" name="gender" value="no"> No<br>
+                   <input class="q1" type="radio" name="gender" value="undecided"> Undecided
+
+         </form> 
+      </div> -->
+       
+    </section>
+
+
+     <section class="section" id="questions">
+        <div class="container" id="lore_brief">
+            <h2 class="section-heading text-center">Answer the Following</h2>
+         
+        </div>
+
+
+        <div class="container" id="quiz-questions">
+					
+<!--             <div class="question invisible" id="question-1">
+                
+            </div>
+
+
+             <div class="question invisible" id="question-2">
+                <form>
+                    <h2 class="section-heading text-center">q2?</h2>
+
+
+                    <p style="font-style: italic">little descript(optional)?</p>
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">a
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">b
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">c
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">d
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">e
+                    <input data-endingsentence=".___" name="rq" onclick="setAnswerButton()" type="radio">f
+                </form>
+            </div> -->
+
+
+
+            <div class="invisible" id="confirm_answer">
+                <br>
+                <br>
+                <button class="button" onclick="nextQuestion()" type="button">Next Question</button>
+            </div>
+
+
+            <div class="invisible" id="results_screen">
+                <h2 class="section-heading text-center">Who are you?</h2>
+					        <div id="generated_text"> </div>
+            </div>
+         </div>
+    </section>
+
+
+    <section class="footer-section section" id="footer">
+        <div class="container">
+            <div class="footer-copyright">
+                <ul class="list-inline right">
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
