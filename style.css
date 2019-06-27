@@ -93,7 +93,7 @@ body {
 #castro {
   background-color: #031D44;
   color: white;
-  width: 1200px
+  width: 1200px;
 }
 
 .mission{
@@ -188,29 +188,37 @@ font-size: 25px;
   height: 400px;
 }
 #immigration{
-display:inline-block;
-  
-  }
-  
-#chart{ 
-height:450px;
-width:600px;
-transform: translate(800px, -350px);
-  
-÷  }
-/* #gun{
-display:inline-block;
+/*   display:inline-block;
   height:450px;
   width: 770px;
   padding-left:20px;
   padding-right:20px;
   padding-bottom: 0px;
   transform: translate(20px, 50px);
-  margin-left:0px;
-  position:relative;
+  margin-left:0px; */
+
+  font-size: 20px; 
+  }
+#immigrationTitle{
+  color: white; 
+  font-size: 30px; 
+}
+#chart{ 
+height:450px;
+width:600px;
+transform: translate(800px, -350px);
+ }
+#guns{
+color: white; 
+ont-size: 30px; 
    
-} */
+}
 .gunControl{
-  background-color: blue;
-  
+  background-color: #ff3333;
+  height: 300px;
+  width:700px;
+  color: white;
+  transform: translate(650px, -350px);
+  padding-right:10px;
+  padding-left:10px;
 }
