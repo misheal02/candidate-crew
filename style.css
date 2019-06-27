@@ -57,8 +57,9 @@ body {
   color: #373fff;
 }
 #joeBiden{
-  background-color: #D3D3D3;
+  background-color: #031D44;
   border-radius: 25px;
+  color: white;
 }
 
 .list {
@@ -66,12 +67,12 @@ body {
 }
 
 #elizabethwarren {
-  background-color: #D3D3D3;
+  background-color: white;
   border-radius: 25px;
 }
 
 #kamalaHarris {
-  background-color: #D3D3D3;
+  background-color: #ff3333;
   border-radius: 25px;
 }
 
