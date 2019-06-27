@@ -112,7 +112,9 @@ img#vote {
   padding-top:0px;
   height: 600px;
   width: 100%;
-  transform: translate(0px, -350px);
+/*   transform: translate(0px, -350px); */
+  position: relative;
+/*   top: 500px; */
 }
 .classBrk{
   padding-top:0px;
@@ -138,6 +140,10 @@ bottom photo? */
 
 .topics {
   transform: translate(0px, -410px);
+  background-color: #031D44;
+  background-size: 700px 600px;
+  color: white;
+  width: 600px;
 }
 
 footer {
@@ -154,3 +160,5 @@ font-size: 25px;
 #gra{
   font-size: 20px;
 }
+
+
