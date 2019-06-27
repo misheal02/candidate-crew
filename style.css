@@ -69,7 +69,7 @@ body {
 #elizabethwarren {
   background-color: white;
   border: 4px solid blue;
-  width: 
+  width: 1200px;
 }
 
 #kamalaHarris {
@@ -81,16 +81,19 @@ body {
 #peteBooty {
   background-color: #ff3333;
   color: white;
+  width: 1200px;
 }
 
 #beto {
   background-color: white;
   border: 4px solid red;
+  width: 1200px;
 }
 
 #castro {
   background-color: #031D44;
   color: white;
+  width: 1200px
 }
 
 .mission{
@@ -184,7 +187,7 @@ font-size: 25px;
   width: 550px;
   height: 400px;
 }
-#immi{
+#immigration{
 display:inline-block;
   
   }
@@ -194,7 +197,7 @@ height:450px;
 width:600px;
 transform: translate(800px, -350px);
   
-  }
+÷  }
 /* #gun{
 display:inline-block;
   height:450px;
@@ -207,3 +210,7 @@ display:inline-block;
   position:relative;
    
 } */
+.gunControl{
+  background-color: blue;
+  
+}
