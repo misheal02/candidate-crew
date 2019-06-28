@@ -211,17 +211,18 @@ transform: translate(800px, -445px);
  }
 #guns{
 color: white; 
-ont-size: 30px; 
+font-size: 30px; 
    
 }
 .gunControl{
   background-color: #ff3333;
-  height: 300px;
-  width:700px;
+  height: 450px;
+  width:770px;
   color: white;
-  transform: translate(650px, -350px);
+  transform: translate(600px, -350px);
   padding-right:10px;
   padding-left:10px;
+  font-size: 
 }
 #kaname,#caname{
   color:white;
@@ -232,4 +233,9 @@ ont-size: 30px;
   width: 500px;
   transform: translate(-590px, -330px);
 }
-#ourbio
+#bidenT{
+  color: white; 
+}
+#booty{
+  color: white; 
+}
