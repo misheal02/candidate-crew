@@ -245,3 +245,13 @@ font-size: 30px;
 #guns{
   font-size: 30px; 
 }
+
+#budget {
+  height: 400px;
+  width: 600px;
+  transform: translate(800px, -100px);
+}
+#education{
+  background-color: #031D44; 
+  color: white; 
+}
