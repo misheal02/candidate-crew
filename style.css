@@ -248,10 +248,17 @@ font-size: 30px;
 
 #budget {
   height: 400px;
-  width: 600px;
-  transform: translate(800px, -100px);
+  width: 500px;
+  transform: translate(800px, -295px);
 }
 #education{
   background-color: #031D44; 
   color: white; 
+  height: 400px;
+  font-size: 20px; 
+  margin-top: 70px;
+}
+#eductionTitle{
+  color: white;
+  font-size: 40px;
 }
